@@ -65,7 +65,7 @@ const ContactInputSection = ({ onSubmit }) => {
 };
 
 ContactInputSection.propTypes = {
-  onSubmit: PropTypes.func.isRequired,
+  onSubmit: PropTypes.func,
 };
 export default ContactInputSection;
 
